@@ -2,3 +2,5 @@ INFO  | 2020-10-07 01:23:50 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.jav
 INFO  | 2020-10-07 01:24:03 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:22) - SAD
 INFO  | 2020-10-07 01:24:14 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:20) - Please enter your mood:
 INFO  | 2020-10-07 01:24:20 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:22) - SAD
+INFO  | 2020-10-07 01:52:39 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:20) - Please enter your mood:
+INFO  | 2020-10-07 01:52:52 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:22) - SAD

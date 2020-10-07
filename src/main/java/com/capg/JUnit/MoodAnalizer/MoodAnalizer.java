@@ -8,7 +8,7 @@ public class MoodAnalizer {
 	
 	private static Logger LOG = LogManager.getLogger(MoodAnalizer.class);
 	public String analizeMood(String message) {
-		if (message.contains("sad")||message.contains("SAD")) {
+		if (message.contains("sad")||message.contains("SAD")||message.contains("Sad")) {
 			return "SAD";
 		} else {
 			return "HAPPY";
