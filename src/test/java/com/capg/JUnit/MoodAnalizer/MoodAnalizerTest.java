@@ -1,24 +1,29 @@
 package com.capg.JUnit.MoodAnalizer;
 
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class MoodAnalizerTest {
-	static MoodAnalizer theMood = null ;
    
-	@BeforeClass
-	public static void setUp() {
-		theMood = new MoodAnalizer();
-	}
+	private String Null;
+	
 	@Test
 	public void givenMessage_WhenSad_ShouldReturnSad() {
-		String myMood = theMood.analizeMood("I am in sad Mood");
-		Assert.assertEquals("SAD", myMood);
+		MoodAnalizer myMood = new MoodAnalizer("I am in Sad Mood");
+		String theMood = myMood.analizeMood();
+		Assert.assertEquals("SAD", theMood);
 	}
 	@Test
 	public void givenMessage_WhenNotSad_ShouldReturnSad() {
-		String myMood = theMood.analizeMood("I am in Any Mood");
-		Assert.assertEquals("HAPPY", myMood);
+		MoodAnalizer myMood = new MoodAnalizer("I am in Happy Mood");
+		String theMood = myMood.analizeMood();
+		Assert.assertEquals("HAPPY", theMood);
 	}
+	@Test
+	public void givenMessage_WhenNull_ShouldReturnHappy() {
+		MoodAnalizer myMood = new MoodAnalizer(null);
+		String theMood = myMood.analizeMood();
+		Assert.assertEquals("HAPPY", theMood);
+	}
+	
 }
