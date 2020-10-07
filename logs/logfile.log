@@ -6,3 +6,8 @@ INFO  | 2020-10-07 01:52:39 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.jav
 INFO  | 2020-10-07 01:52:52 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:22) - SAD
 INFO  | 2020-10-07 15:18:57 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:30) - Please enter your mood:
 INFO  | 2020-10-07 15:19:02 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:33) - HAPPY
+INFO  | 2020-10-08 00:33:36 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:37) - Please enter your mood:
+INFO  | 2020-10-08 00:33:42 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:41) - SAD
+INFO  | 2020-10-08 00:33:51 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:37) - Please enter your mood:
+INFO  | 2020-10-08 00:34:03 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:37) - Please enter your mood:
+INFO  | 2020-10-08 00:34:03 | [main] MoodAnalizer.MoodAnalizer (MoodAnalizer.java:41) - HAPPY
